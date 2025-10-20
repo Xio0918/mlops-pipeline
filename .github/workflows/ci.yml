@@ -26,5 +26,5 @@ jobs:
       - name: Update Branch
         env:
           NAME: ${{ secrets.Xio0918 }}
-          EMAIL: ${{ secrets.xgrisal07954@universidadean.edu.co }}
+          EMAIL: ${{ secrets.USER_EMAIL }}
         run: make update-branch USER_NAME=$NAME USER_EMAIL=$EMAIL
